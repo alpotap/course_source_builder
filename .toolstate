@@ -1,0 +1,15 @@
+{
+  "crawler": {
+    "start_url": "https://docs.microfocus.com/doc/386/25.4/home",
+    "test_seconds": 0,
+    "edge_driver_path": ""
+  },
+  "downloader": {
+    "edges_csv": "source\\doc_links_edges.csv",
+    "output_dir": "docs",
+    "test_seconds": 0,
+    "force_download": true,
+    "page_timeout": 5,
+    "edge_driver_path": ""
+  }
+}
